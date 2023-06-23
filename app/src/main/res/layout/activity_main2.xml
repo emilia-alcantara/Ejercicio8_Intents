@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8FFFDEDE"
     tools:context=".MainActivity2">
 
     <Button
         android:id="@+id/botonPaginaWeb"
-        android:layout_width="wrap_content"
+        android:layout_width="171dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#486966"
+        android:paddingVertical="20dp"
         android:text="Ir al sitio web"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,10 +24,13 @@
         android:id="@+id/botonAtras"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#B2BEBF"
+        android:paddingVertical="20dp"
         android:text="Volver Atrás"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/botonPaginaWeb"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/botonPaginaWeb"
         app:layout_constraintTop_toBottomOf="@+id/botonPaginaWeb" />
 </androidx.constraintlayout.widget.ConstraintLayout>
