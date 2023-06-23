@@ -33,8 +33,7 @@ public class MainActivity2 extends AppCompatActivity {
         botonVolver.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent volverAtras = new Intent(MainActivity2.this, MainActivity.class);
-                startActivity(volverAtras);
+                onBackPressed();
             }
         });
     }
